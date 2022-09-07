@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+   int num1, num2,div;
+   printf("\Enter two number\n");
+   printf("-------------------------\n");
+printf("Enter first num:");
+scanf("%d",&num1);
+printf("\nEnter second num:");
+scanf("%d",&num2);
+div=num1/num2;
+printf("\nDivision of %d & %d is = %d",num1,num2,div);
+return 0;
+
+}
+
+--------------------------------------
+SOLUTION
+
+
+ter two number
+-------------------------
+Enter first num:625
+Enter second num:5
+Division of 625 & 5 is = 125
