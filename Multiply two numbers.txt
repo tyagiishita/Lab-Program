@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int num1,num2,product;
+    printf("Enter two numbers:");
+    scanf("%d %d",&num1,&num2);
+    product=num1*num2;
+    printf("product of two numbers: %d",product);
+    return 0;
+}
+
+--------------------------------------------------------
+SOLUTION
+
+Enter two numbers:21
+24
+product of two numbers: 504
