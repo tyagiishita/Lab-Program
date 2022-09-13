@@ -1,0 +1,32 @@
+Greatest Among three number(2)
+
+#include <stdio.h>
+
+int main() {
+    int a=2, b=4, c=6;
+    if (a>b){
+        if (a>c){
+            printf("a is greatest");
+        }
+        else{
+            if (b>c){
+                printf("b is greatest");
+            }
+            else{
+                printf("c is greatest");
+            }
+        }
+    }
+    else
+    if(b>c){
+        printf("b is greatest");
+    }
+    else{
+        printf("c is greatest");
+    }
+    return 0;
+}
+-------------------------------------------------
+
+Solution
+C is greatest
