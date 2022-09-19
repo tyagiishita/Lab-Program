@@ -1,0 +1,61 @@
+/*Print prime number upto 100*/
+
+
+#include <stdio.h>
+ 
+int main()
+{
+  int i, a = 1, count; 
+  
+
+  while(a <= 100)
+  {
+    count = 0;
+    i = 2;
+    while(i <= a/2)
+    {
+      if(a%i == 0)
+      {
+        count++;
+	break;
+      }
+      i++;	
+    }	
+    if(count == 0 && a != 1 )
+    {
+	printf("\n %d ", a);
+    }
+    a++; 
+  }
+    return 0;
+}
+---------------------------------------
+SOLUTION
+
+2 
+ 3 
+ 5 
+ 7 
+ 11 
+ 13 
+ 17 
+ 19 
+ 23 
+29 
+ 31 
+ 37 
+ 41 
+ 43 
+ 47 
+ 53 
+ 59 
+ 61 
+ 67 
+ 71 
+ 73 
+ 79 
+ 83 
+ 89 
+ 97 
+
+
