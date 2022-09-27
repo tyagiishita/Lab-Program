@@ -1,0 +1,59 @@
+Addition of two MATRIX 
+
+
+#include <stdio.h>
+int main() {
+    int i,j;
+    int a[2][2], b[2][2],c[2][2];
+    printf("enter the element of 1st matrix:\n ");
+   for(i=0; i<2; i++)
+   {
+       for(j=0; j<2; j++)
+       {
+       printf("enter value %d,%d : ",i,j);
+       scanf("%d",&a[i][j]);
+   }
+}
+ printf("enter the element of 2nd matrix:\n ");
+   for(i=0; i<2; i++)
+   {
+       for(j=0; j<2; j++)
+       {
+       printf("enter value %d,%d : ",i,j);
+       scanf("%d",&b[i][j]);
+   }
+   }
+   for(i=0; i<2; i++)
+   {
+       for(j=0; j<2; j++)
+       {
+           c[i][j]=a[i][j]+b[i][j];
+       }
+   }   
+    for(i=0; i<2; i++)
+   {
+       for(j=0; j<2; j++)
+       {
+           printf(" %d ", c[i][j]);
+       }
+   
+       printf("\n");
+   }
+       return 0;
+       }
+
+------------------------------------------------
+OUTPUT
+
+enter the element of 1st matrix:
+ enter value 0,0 : 1
+ enter value 0,1 : 2
+ enter value 1,0 : 3
+ enter value 1,1 : 4
+ enter the element of 2nd matrix:
+ enter value 0,0 : 1
+ enter value 0,1 : 2
+ enter value 1,0 : 3
+ enter value 1,1 : 4
+ 2  4 
+ 6  8 
