@@ -1,0 +1,56 @@
+// Transpose of Matrix
+#include <stdio.h>
+
+int main() {
+   int a[3][3],b[3][3],i,j;
+   printf("enter the element of matrix A:\n");
+   for(i=0;i<3;i++)
+   {
+       for(j=0;j<3;j++)
+       {
+           scanf("%d",&a[i][j]);
+       }
+   }
+   printf("matrix A is:\n");
+   for(i=0;i<3;i++)
+   {
+       for(j=0;j<3;j++)
+       {
+           printf("%d",a[i][j]);
+       }
+       printf("\n");
+   }
+   for(i=0;i<3;i++)
+   {
+       for(j=0;j<3;j++)
+       {
+           b[i][j]=a[j][i];
+       }
+   }
+   printf("\n");
+   printf("transpose of matrix A is:\n");
+   for(i=0;i<3;i++)
+   {
+       for(j=0;j<3;j++)
+       {
+           printf("%d",b[i][j]);
+       }
+       printf("\n");
+   }
+   return 0;
+}
+------------------------------------------
+Output
+enter the element of matrix A:
+1 2 3
+5 6 8
+0 6 4
+matrix A is:
+123
+568
+064
+
+transpose of matrix A is:
+150
+266
+384
