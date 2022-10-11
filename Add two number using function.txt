@@ -1,0 +1,21 @@
+//WAP in C add two number using function
+
+#include <stdio.h>
+void sum();
+void main()
+{
+    sum();
+}
+void sum()
+{
+    int a,b,sum;
+    printf("enter two number");
+    scanf("%d%d",&a, &b);
+    sum=a+b;
+    printf("sum of two no %d",sum);
+}
+--------------------------------------
+OUTPUT
+enter two number21
+5
+sum of two no 26
