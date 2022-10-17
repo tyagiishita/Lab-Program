@@ -1,0 +1,19 @@
+//Print user input string
+
+#include <stdio.h>
+
+void main() {
+    char name[10],sname[10];
+    
+    printf("enter your name ");
+    
+    scanf("%s", &name);
+    printf("Hii\n %s", name);
+    printf(" what's up\n %s");
+   
+}
+----------------------------------
+OUTPUT 
+enter your name Tyagi
+Hii
+ Tyagi what's up
