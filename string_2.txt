@@ -8,16 +8,17 @@ void main() {
     printf("ENTER YOUR NAME\n ");
     
     scanf("%[^@]", name);
-    printf("Hello\n %s", name);
-    printf(" I am Ishita Tyagi.\n ");
-    printf(" Wlcome to My Github Account.\n ");
+    printf("Hello %s", name);
+    printf("\nI am Ishita Tyagi.\n ");
+    printf("Wlcome to My Github Account.\n ");
    
 }
 -----------------------------------
 Output
 ENTER YOUR NAME
- Ritz@
- Hello
- Ritz I am Ishita Tyagi.
-  Wlcome to My Github Account.
+Ritz@
+Hello Ritz
+I am Ishita Tyagi.
+ Wlcome to My Github Account.
+ 
  
